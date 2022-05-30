@@ -35,6 +35,9 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/ngrok',
+    '@nuxtjs/google-analytics', {
+      id: 'G-2QBTMFDD8X'
+    }
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
