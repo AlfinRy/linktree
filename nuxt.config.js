@@ -24,7 +24,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/vue-type.js',
-    {src: '~/plugins/vue-confetti.js', mode: 'client'}
+    {src: '~/plugins/vue-confetti.js', mode: 'client'},
+    '~/plugins/vue-gtag.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -53,6 +54,9 @@ export default {
   },
   googleAnalytics: {
     id: 'G-2QBTMFDD8X',
+    autoTracking: {
+      screenview: true
+    },
     debug: {
       enabled: true,
       sendHitTask: true
