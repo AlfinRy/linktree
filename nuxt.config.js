@@ -50,5 +50,12 @@ export default {
   ngrok: {
     // module options
     authtoken: '29eZrEES82BHu4MpcTtclzZYowf_38zVKwB2UGg4saXKyr16X'
-  }
+  },
+  googleAnalytics: {
+    id: 'G-2QBTMFDD8X',
+    debug: {
+      enabled: true,
+      sendHitTask: true
+    } // Used as fallback if no runtime config is provided
+  },
 }
