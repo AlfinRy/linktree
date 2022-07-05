@@ -6,7 +6,7 @@
         <h1 class="typing"></h1>
       </vue-typed-js>
       <div class="w-full grid grid-cols-1 xl:grid-cols-3 text-center gap-2">
-        <a target="_blank" class="flex items-center justify-center px-5 py-2 border-2 border-black rounded" href="https://portfolio-tw.vercel.app/"><i class="las la-address-card"></i> Portfolio</a>
+        <a target="_blank" class="flex items-center justify-center px-5 py-2 border-2 border-black rounded" href="https://portfolio-tw.vercel.app/"><i class="text-3xl las la-address-card"></i> Portfolio</a>
         <a target="_blank" class="flex items-center justify-center px-5 py-2 border-2 border-black rounded" href="https://www.linkedin.com/in/alfinry/"><i class="text-3xl lab la-linkedin"></i> Linkedin</a>
         <a target="_blank" class="flex items-center justify-center px-5 py-2 border-2 border-black rounded" href="https://github.com/AlfinRy"><i class="text-3xl lab la-github"></i> Github</a>
         <a target="_blank" class="flex items-center justify-center px-5 py-2 border-2 border-black rounded" href="https://instagram.com/alfinry_"><i class="text-3xl lab la-instagram"></i> Instagram</a>
